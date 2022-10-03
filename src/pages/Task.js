@@ -16,7 +16,7 @@ function Task() {
   return (
     <div className="container-fluid ">
       <div className="row justify-content-center">
-      <h4 className="text-white">The total number of course = {taskObj.course.length}</h4>
+      <h4 className="text-white">Total course = {taskObj.course.length}</h4>
         <div className="col-md-4 d-flex">
           <input
             type="text"
